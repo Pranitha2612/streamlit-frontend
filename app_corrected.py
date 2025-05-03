@@ -20,7 +20,7 @@ user_input = st.text_area("Input your text here:")
 if st.button("Get Prediction"):
     if user_input and model_name:
         with st.spinner("Getting prediction from API..."):
-            url = "url = "https://ai-api-generator-1.onrender.com/predict-text"
+            url = "https://ai-api-generator-1.onrender.com/predict-text"
             payload = {
                 "model_name": model_name,
                 "text": user_input
